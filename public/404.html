@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // GitHub Pages SPA redirect fix
+      // Redirects 404s back to index.html so React Router / hash routing works
+      const path = window.location.pathname;
+      const base = '/Portfolio';
+      if (path.startsWith(base)) {
+        window.location.replace(base + '/?r=' + encodeURIComponent(path.slice(base.length)));
+      } else {
+        window.location.replace(base + '/');
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
