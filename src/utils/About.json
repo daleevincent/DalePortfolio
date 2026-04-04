@@ -10,16 +10,16 @@
     "phone": "+63 994 680 8521"
   },
   "skills": [
-    { "name": "JavaScript",   "icon": "/Main_Portfolio/images/skills/javascript.svg" },
-    { "name": "React",        "icon": "/Main_Portfolio/images/skills/react.svg" },
-    { "name": "Flutter",      "icon": "/Main_Portfolio/images/skills/flutter.png" },
-    { "name": "HTML",         "icon": "/Main_Portfolio/images/skills/html.svg" },
-    { "name": "CSS",          "icon": "/Main_Portfolio/images/skills/css.svg" },
-    { "name": "Python",       "icon": "/Main_Portfolio/images/skills/python.svg" },
-    { "name": "PHP",          "icon": "/Main_Portfolio/images/skills/php.svg" },
-    { "name": "MySQL",        "icon": "/Main_Portfolio/images/skills/mysql.svg" },
-    { "name": "C++",          "icon": "/Main_Portfolio/images/skills/cplusplus.svg" },
-    { "name": "C#",           "icon": "/Main_Portfolio/images/skills/csharp.svg" },
-    { "name": "Tailwind CSS", "icon": "/Main_Portfolio/images/skills/tailwind.svg" }
+    { "name": "JavaScript",   "icon": "/DalePortfolio/images/skills/javascript.svg" },
+    { "name": "React",        "icon": "/DalePortfolio/images/skills/react.svg" },
+    { "name": "Flutter",      "icon": "/DalePortfolio/images/skills/flutter.png" },
+    { "name": "HTML",         "icon": "/DalePortfolio/images/skills/html.svg" },
+    { "name": "CSS",          "icon": "/DalePortfolio/images/skills/css.svg" },
+    { "name": "Python",       "icon": "/DalePortfolio/images/skills/python.svg" },
+    { "name": "PHP",          "icon": "/DalePortfolio/images/skills/php.svg" },
+    { "name": "MySQL",        "icon": "/DalePortfolio/images/skills/mysql.svg" },
+    { "name": "C++",          "icon": "/DalePortfolio/images/skills/cplusplus.svg" },
+    { "name": "C#",           "icon": "/DalePortfolio/images/skills/csharp.svg" },
+    { "name": "Tailwind CSS", "icon": "/DalePortfolio/images/skills/tailwind.svg" }
   ]
 }
