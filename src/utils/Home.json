@@ -7,8 +7,8 @@
     "I turn ideas into reality."
   ],
   "tagline": "I'm a passionate student developer focused on creating simple, accessible, and responsive user experiences.",
-  "profileImage": "/src/assets/images/Profile.jpeg",
-  "cvLink": "/src/assets/files/CV-DaleVincent.pdf",
+  "profileImage": "/images/Profile.jpeg",
+  "cvLink": "/files/Dale_Vincent_CV.pdf",
   "socials": [
     { "name": "GitHub",    "url": "https://github.com/daleevincent" },
     { "name": "LinkedIn",  "url": "https://www.linkedin.com/in/dale-vincent-112ab6392/" },
