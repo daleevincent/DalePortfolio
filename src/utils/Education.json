@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "degree": "Bachelor of Science in Computer Science",
+    "school": "National University - Lipa",
+    "years": "2022 - 2026",
+    "location": "SM City Lipa, Ayala Highway, Lipa City, Philippines",
+    "image": "/images/NU.png",
+    "fallback": "NU"
+  },
+  {
+    "id": 2,
+    "degree": "Accountancy, Business, and Management",
+    "school": "The Mabini Academy",
+    "years": "2020 - 2022",
+    "location": "T. M. Kalaw Street, Brgy. Balintawak, Lipa City, Batangas, Philippines",
+    "image": "/images/TMA.png",
+    "fallback": "TMA"
+  },
+  {
+    "id": 3,
+    "degree": "Junior High School",
+    "school": "Agonscillo College Inc.",
+    "years": "2016 - 2020",
+    "location": "J. Mendoza Street, Municipality of Agoncillo, Batangas, Calabarzon, Philippines",
+    "image": "/images/ACI.png",
+    "fallback": "ACI"
+  }
+]

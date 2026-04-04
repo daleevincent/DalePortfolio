@@ -1,0 +1,180 @@
+/* ── Contact ─────────────────────────────────────── */
+#contact { background: var(--bg2); }
+
+.contact-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-subtext {
+  color: var(--accent2);
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.form-field label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.form-field input,
+.form-field textarea {
+  padding: 0.85rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  transition: all var(--transition);
+  resize: none;
+  outline: none;
+}
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: var(--accent2);
+  background: var(--bg3);
+}
+.form-field textarea { min-height: 130px; }
+
+.contact-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.contact-social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 99px;
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--accent2);
+  background: var(--surface);
+  transition: all var(--transition);
+}
+.contact-social-btn:hover {
+  border-color: var(--accent);
+  color: var(--highlight);
+  background: var(--bg3);
+  transform: translateY(-2px);
+}
+
+/* ── Contact status banners ──────────────────────── */
+.contact-banner {
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border: 1px solid;
+}
+.contact-banner--success {
+  background: rgba(74, 222, 128, 0.08);
+  border-color: rgba(74, 222, 128, 0.3);
+  color: #4ade80;
+}
+.contact-banner--error {
+  background: rgba(248, 113, 113, 0.08);
+  border-color: rgba(248, 113, 113, 0.3);
+  color: #f87171;
+}
+
+/* Send button spinner */
+.contact-spinner {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Status banners */
+.contact-banner {
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border: 1px solid;
+}
+.contact-banner--success {
+  background: rgba(74, 222, 128, 0.08);
+  border-color: rgba(74, 222, 128, 0.3);
+  color: #4ade80;
+}
+.contact-banner--error {
+  background: rgba(248, 113, 113, 0.08);
+  border-color: rgba(248, 113, 113, 0.3);
+  color: #f87171;
+}
+
+/* Send button spinner */
+.contact-spinner {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-image-wrap { display: none; }
+  .form-row { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  nav { padding: 0 5%; }
+  .nav-links { display: none; }
+  .btn-contact { display: none; }
+  .hamburger { display: flex; }
+  section { padding: 80px 5%; }
+  .edu-card { flex-direction: column; align-items: flex-start; }
+  .proj-grid { grid-template-columns: 1fr; }
+  .cert-grid { grid-template-columns: 1fr; }
+}

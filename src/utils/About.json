@@ -1,0 +1,25 @@
+{
+  "title": "About Me",
+  "paragraphs": [
+    "Hello! I'm Dale Vincent Montaño, a student developer based in the Philippines. I enjoy creating visually appealing and functional websites. My interest in web development started back in 2022, where I learned the fundamentals of HTML, CSS, and JavaScript.",
+    "Fast-forward to today, and I've had the privilege of working with modern frameworks like React and Flutter to build scalable and maintainable applications. My focus is currently on full-stack development, but I always prioritize the user experience on the front-end."
+  ],
+  "contact": {
+    "location": "Lipa City, Batangas, Philippines",
+    "email": "dalevincent94@gmail.com",
+    "phone": "+63 994 680 8521"
+  },
+  "skills": [
+    { "name": "JavaScript",   "icon": "/src/assets/images/skills/javascript.svg" },
+    { "name": "React",        "icon": "/src/assets/images/skills/react.svg" },
+    { "name": "Flutter",      "icon": "/src/assets/images/skills/flutter.png" },
+    { "name": "HTML",         "icon": "/src/assets/images/skills/html.svg" },
+    { "name": "CSS",          "icon": "/src/assets/images/skills/css.svg" },
+    { "name": "Python",       "icon": "/src/assets/images/skills/python.svg" },
+    { "name": "PHP",          "icon": "/src/assets/images/skills/php.svg" },
+    { "name": "MySQL",        "icon": "/src/assets/images/skills/mysql.svg" },
+    { "name": "C++",          "icon": "/src/assets/images/skills/cplusplus.svg" },
+    { "name": "C#",           "icon": "/src/assets/images/skills/csharp.svg" },
+    { "name": "Tailwind CSS", "icon": "/src/assets/images/skills/tailwind.svg" }
+  ]
+}

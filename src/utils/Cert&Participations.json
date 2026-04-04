@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Prompt Engineering Specialization",
+    "issuer": "Coursera",
+    "icon": "🌐",
+    "type": "Certification"
+  },
+  {
+    "id": 2,
+    "name": "ChatGPT Advanced Data Analysis",
+    "issuer": "Coursera",
+    "icon": "🌐",
+    "type": "Certification"
+  },
+  {
+    "id": 3,
+    "name": "HTML, CSS, JavaScript for Web Developers",
+    "issuer": "Coursera",
+    "icon": "🌐",
+    "type": "Certification"
+  },
+  {
+    "id": 4,
+    "name": "Meta Front-End Developer Professional Certificate",
+    "issuer": "Coursera",
+    "icon": "🌐",
+    "type": "Certification"
+  },
+  {
+    "id": 5,
+    "name": "Base Build Calabarzon",
+    "issuer": "Certificate of Participation",
+    "icon": "🌐",
+    "type": "Participation"
+  },
+  {
+    "id": 6,
+    "name": "IC3 Digital Literacy Certification",
+    "issuer": "IC3",
+    "icon": "🌐",
+    "type": "Certification"
+  }
+]

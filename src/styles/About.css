@@ -1,0 +1,215 @@
+/* ── About ───────────────────────────────────────── */
+#about { background: var(--bg2); }
+
+.about-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.skills-below {
+  margin-top: 3rem;
+}
+
+.about-text p {
+  color: var(--accent2);
+  margin-bottom: 1.2rem;
+  font-weight: 300;
+  font-size: 0.98rem;
+}
+
+.about-info {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.info-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  font-size: 0.88rem;
+}
+.info-item .label {
+  color: var(--muted);
+  min-width: 60px;
+  font-weight: 500;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+.info-item .value { color: var(--accent); }
+
+/* Skills Carousel */
+.skills-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.carousel-track-wrap {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+.carousel-track-wrap::before,
+.carousel-track-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 60px;
+  z-index: 2;
+  pointer-events: none;
+}
+.carousel-track-wrap::before {
+  left: 0;
+  background: linear-gradient(to right, var(--bg2), transparent);
+}
+.carousel-track-wrap::after {
+  right: 0;
+  background: linear-gradient(to left, var(--bg2), transparent);
+}
+
+.carousel-track {
+  display: flex;
+  gap: 0.75rem;
+  animation: scroll-left 18s linear infinite;
+  width: max-content;
+}
+.carousel-track-reverse {
+  animation-direction: reverse;
+  animation-duration: 22s;
+}
+@keyframes scroll-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.carousel-track-wrap:hover .carousel-track { animation-play-state: paused; }
+
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 0;
+  white-space: nowrap;
+  transition: all var(--transition);
+}
+
+.skill-pill img {
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+  filter: grayscale(30%) opacity(0.75);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.skill-pill:hover img {
+  filter: grayscale(0%) opacity(1);
+  transform: translateY(-4px) scale(1.15);
+}
+
+/* Icon-only variant — same as base, slightly larger */
+.skill-pill--icon-only {
+  padding: 0.4rem;
+  gap: 0;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+}
+.skill-pill--icon-only img {
+  width: 92px;
+  height: 92px;
+  object-fit: contain;
+}
+
+/* Icon-only variant — no text, square pill, larger icon */
+.skill-pill--icon-only {
+  padding: 0.55rem;
+  gap: 0;
+  width: 92px;
+  height: 62px;
+  justify-content: center;
+  border-radius: 12px;
+}
+.skill-pill--icon-only img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+/* ── What I Do cards ────────────────────────────── */
+.whatido {
+  min-width: 260px;
+  max-width: 1100px;
+  margin: 1.25rem 0 2rem;
+}
+
+.whatido-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+  justify-content: center;
+}
+
+.whatido-card {
+  padding: 1.5rem 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  min-width: 200px;
+  flex: 1;
+  max-width: 380px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color var(--transition), background var(--transition);
+  cursor: pointer;
+}
+
+.whatido-icon {
+  font-size: 2.25rem;
+  color: var(--highlight);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatido-title {
+  font-weight: 700;
+  color: var(--highlight);
+  font-size: 0.95rem;
+  font-family: var(--font-head);
+}
+
+.whatido-desc {
+  font-size: 0.78rem;
+  color: var(--accent2);
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.whatido-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45);
+  border-color: rgba(255, 255, 255, 0.14);
+  background: var(--bg3);
+}
+.whatido-card:hover .whatido-icon { color: var(--accent); }
+.whatido-card:hover .whatido-title { color: var(--highlight); }
+
+@media (max-width: 880px) {
+  .whatido { max-width: 100%; }
+  .whatido-list { justify-content: center; }
+}
+
