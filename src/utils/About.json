@@ -10,16 +10,16 @@
     "phone": "+63 994 680 8521"
   },
   "skills": [
-    { "name": "JavaScript",   "icon": "/images/skills/javascript.svg" },
-    { "name": "React",        "icon": "/images/skills/react.svg" },
-    { "name": "Flutter",      "icon": "/images/skills/flutter.png" },
-    { "name": "HTML",         "icon": "/images/skills/html.svg" },
-    { "name": "CSS",          "icon": "/images/skills/css.svg" },
-    { "name": "Python",       "icon": "/images/skills/python.svg" },
-    { "name": "PHP",          "icon": "/images/skills/php.svg" },
-    { "name": "MySQL",        "icon": "/images/skills/mysql.svg" },
-    { "name": "C++",          "icon": "/images/skills/cplusplus.svg" },
-    { "name": "C#",           "icon": "/images/skills/csharp.svg" },
-    { "name": "Tailwind CSS", "icon": "/images/skills/tailwind.svg" }
+    { "name": "JavaScript",   "icon": "/Portfolio/images/skills/javascript.svg" },
+    { "name": "React",        "icon": "/Portfolio/images/skills/react.svg" },
+    { "name": "Flutter",      "icon": "/Portfolio/images/skills/flutter.png" },
+    { "name": "HTML",         "icon": "/Portfolio/images/skills/html.svg" },
+    { "name": "CSS",          "icon": "/Portfolio/images/skills/css.svg" },
+    { "name": "Python",       "icon": "/Portfolio/images/skills/python.svg" },
+    { "name": "PHP",          "icon": "/Portfolio/images/skills/php.svg" },
+    { "name": "MySQL",        "icon": "/Portfolio/images/skills/mysql.svg" },
+    { "name": "C++",          "icon": "/Portfolio/images/skills/cplusplus.svg" },
+    { "name": "C#",           "icon": "/Portfolio/images/skills/csharp.svg" },
+    { "name": "Tailwind CSS", "icon": "/Portfolio/images/skills/tailwind.svg" }
   ]
 }
