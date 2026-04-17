@@ -49,7 +49,7 @@ export default function About() {
         {/* About Text */}
         <div className="about-text">
           <div className="section-label reveal">About</div>
-          <h2 className="section-title reveal reveal-delay-1">Who am I?</h2>
+          <h2 className="section-title reveal reveal-delay-1">Who am I</h2>
 
           {paragraphs.map((p, i) => (
             <p key={i} className="reveal reveal-delay-2">{p}</p>
