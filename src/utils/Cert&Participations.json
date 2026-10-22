@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "name": "Prompt Engineering Specialization",
-    "issuer": "Coursera",
+    "name": "IC3 Digital Literacy Certification",
+    "issuer": "IC3",
     "icon": "🌐",
     "type": "Certification"
   },
   {
     "id": 2,
-    "name": "ChatGPT Advanced Data Analysis",
-    "issuer": "Coursera",
+    "name": "Base Build Calabarzon",
+    "issuer": "Certificate of Participation",
     "icon": "🌐",
     "type": "Certification"
   },
@@ -29,15 +29,15 @@
   },
   {
     "id": 5,
-    "name": "Base Build Calabarzon",
-    "issuer": "Certificate of Participation",
+    "name": "Google UX Design",
+    "issuer": "Coursera",
     "icon": "🌐",
     "type": "Participation"
   },
   {
     "id": 6,
-    "name": "IC3 Digital Literacy Certification",
-    "issuer": "IC3",
+    "name": "IBM Full Stack Software Developer",
+    "issuer": "Coursera",
     "icon": "🌐",
     "type": "Certification"
   }
