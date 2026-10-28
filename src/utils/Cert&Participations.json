@@ -11,7 +11,7 @@
     "name": "Base Build Calabarzon",
     "issuer": "Certificate of Participation",
     "icon": "🌐",
-    "type": "Certification"
+    "type": "Participation"
   },
   {
     "id": 3,
@@ -32,7 +32,7 @@
     "name": "Google UX Design",
     "issuer": "Coursera",
     "icon": "🌐",
-    "type": "Participation"
+    "type": "Certification"
   },
   {
     "id": 6,
